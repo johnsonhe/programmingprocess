@@ -1,5 +1,5 @@
-import {Feature, Map, Overlay, View} from 'ol/index.js';
-import {OSM, Vector as VectorSource} from 'ol/source.js';
+import {Feature, Map, Overlay, View} from './ol/index.js';
+import {OSM, Vector as VectorSource} from './ol/source.js';
 import {Point} from 'ol/geom.js';
 import {Tile as TileLayer, Vector as VectorLayer} from 'ol/layer.js';
 import {useGeographic} from 'ol/proj.js';
