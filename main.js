@@ -1,8 +1,8 @@
-import {Feature, Map, Overlay, View} from './ol/index.js';
-import {OSM, Vector as VectorSource} from './ol/source.js';
-import {Point} from './ol/geom.js';
-import {Tile as TileLayer, Vector as VectorLayer} from './ol/layer.js';
-import {useGeographic} from './ol/proj.js';
+import {Feature, Map, Overlay, View} from './node_modules/ol/index.js';
+import {OSM, Vector as VectorSource} from './node_modules/ol/source.js';
+import {Point} from './node_modules/ol/geom.js';
+import {Tile as TileLayer, Vector as VectorLayer} from './node_modules/ol/layer.js';
+import {useGeographic} from './node_modules/ol/proj.js';
 
 useGeographic();
 
