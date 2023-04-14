@@ -10,5 +10,5 @@
     "start": "vite",
     "build": "vite build"
   },
-  “homepage” : “http://johnsonhe.github.io/programmingprocess"
+  “homepage” : "."
 }
